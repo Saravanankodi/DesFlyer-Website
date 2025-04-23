@@ -16,15 +16,15 @@ function Contactus() {
               <p className="text text-lg lg:text-xl text-center lg:text-left">Reach out to us for inquiries or support. We’re eager to assist you!</p>
             </aside>
             <aside className="w-full lg:w-1/2 lg:p-5">
-              <div className="flex items-center">
+              <div className="flex gap-5 items-center">
                 <img src={mail} alt="icon" className="w-6 h-6" />
                 <a href="mailto:desflyer.tech@gmail.com" className="text text-lg lg:text-xl">desflyer.tech@gmail.com</a>
               </div>
-              <div className="flex items-center">
+              <div className="flex  gap-5 items-center">
                 <img src={phone} alt="icon" className="w-6 h-6" />
                 <a href="tel:+919092579460" className="text text-lg lg:text-xl">9092579460</a>
               </div>
-              <div className="flex items-center">
+              <div className="flex gap-5 items-center">
                 <img src={address} alt="icon" className="w-6 h-6" />
                 <p className="text text-lg lg:text-xl">DesFlyer- Incubation Cell Kings College of Engineering-6142003</p>
               </div>

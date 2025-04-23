@@ -22,7 +22,7 @@ const data = [
 function Review() {
   return (
     <>
-    <section className="w-full h-auto bg-review text-black p-5 lg:flex items-center justify-center gap-5">
+    <section className="w-full h-500 bg-review text-black p-5 lg:flex items-center justify-center gap-5">
         <header className="w-full lg:w-2/5 lg:p-5 ">
             <h2 className="heading text-3xl text-center my-2.5 lg:text-left lg:text-5xl">Client Success</h2>
             <p className="text text-lg text-justify">
@@ -38,7 +38,7 @@ function Review() {
         </header>
         <main className="cards w-full my-2.5 lg:m-0 lg:w-3/5 flex flex-col gap-5 lg:gap-10">
             {data.map((item,index)=>(
-                <div className="card h-fit w-fit lg:max-w-card py-2 px-1 lg:p-2 rounded-xl lg:rounded-2xl flex items-center justify-center gap-2.5 lg:odd:self-start lg:even:self-end" key={index}>
+                <div className="card h-100 w-fit lg:max-w-card py-2 px-1 lg:p-2 rounded-xl lg:rounded-2xl flex items-center justify-center gap-2.5 lg:odd:self-start lg:even:self-end" key={index}>
                 <aside className="w-1/3 lg:w-20">
                     <img src={item.icon} alt="icon" className="w-full lg:w-16" />
                 </aside>

@@ -3,7 +3,7 @@ import hash from '../../assets/Hastag.svg'
 const ProjectDetails = ({tittle,condent,details,vectorImg}) => {
   return (
     <>
-    <section className="w-full my-2.5 pt-5 lg:p-0 lg:flex items-center justify-center gap-5 dark:border-white border-black  border-t-2">
+    <section className="w-full lg:h-472 my-2.5 pt-5 lg:p-0 lg:flex items-center justify-center gap-5 dark:border-white border-black  border-t-2">
       <main className="w-full lg:w-3/5">
         <h2 className="heading text-3xl lg:my-5 lg:text-5xl text-center lg:text-left">
           {tittle}
@@ -23,7 +23,7 @@ const ProjectDetails = ({tittle,condent,details,vectorImg}) => {
         </ul>
       </main>
       <aside className="w-full lg:w-2/5">
-          <img src={vectorImg} alt="project" className="w-full lg:p-10" />
+          <img src={vectorImg} alt="project" className="w-full lg:h-400" />
       </aside>
     </section>
     </>
