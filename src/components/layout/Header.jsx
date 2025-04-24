@@ -4,10 +4,10 @@ function Header() {
   return (
     <>
     <section className="w-full h-600 lg:grid grid-cols-[500px_1fr] gap-5 grid-rows-2 lg:px-14 lg:py-14">
-        <h2 className="heading text-center text-4xl lg:text-64 leading-head lg:text-left col-start-2">Innovative Software <br /> Solutions for Your <br />
+        <h2 className="heading text-center text-4xl lg:text-64 leading-tittle lg:leading-head lg:text-left col-start-2">Innovative Software <br /> Solutions for Your <br />
         Business</h2>
-        <div className="h-500 w-500 rounded-lg row-start-1 col-start-1 row-span-2">
-            <img src={headerImg} alt="header vector " className="h-500 w-500 rounded-lg block" />
+        <div className="w-full lg:h-500 lg:w-500 rounded-lg row-start-1 col-start-1 row-span-2">
+            <img src={headerImg} alt="header vector " className="w-full lg:h-500 lg:w-500 rounded-lg block" />
         </div>
         <main className="w-full h-full col-start-2 align-top">
             <p className="text text-justify text-lg">

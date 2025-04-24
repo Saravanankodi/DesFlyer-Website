@@ -44,7 +44,8 @@ export default {
         25:"25px"
       },
       lineHeight:{
-        head:"78px"
+        head:"78px",
+        tittle:"52px"
       },
       maxWidth:{
         card:"620px"

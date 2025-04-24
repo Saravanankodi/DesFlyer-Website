@@ -22,7 +22,7 @@ const data = [
 function Review() {
   return (
     <>
-    <section className="w-full h-500 bg-review text-black p-5 lg:flex items-center justify-center gap-5">
+    <section className="w-full lg:h-500 bg-review text-black p-5 lg:flex items-center justify-center gap-5">
         <header className="w-full lg:w-2/5 lg:p-5 ">
             <h2 className="heading text-3xl text-center my-2.5 lg:text-left lg:text-5xl">Client Success</h2>
             <p className="text text-lg text-justify">
