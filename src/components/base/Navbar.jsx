@@ -31,7 +31,7 @@ export default function Navbar() {
             <div className="flex shrink-0 items-center">
               <img src={logo} alt="logo" className="w-fit h-12 m-auto lg:m-0" />
             </div>
-            <div className="hidden sm:ml-6 sm:block">
+            <div className="hidden sm:m-auto sm:block">
               <div className="flex space-x-4">
                 {navigation.map((item) => (
                   <a
@@ -48,6 +48,11 @@ export default function Navbar() {
                 ))}
               </div>
             </div>
+
+            <div className="btns hidden sm:flex tittle gap-5 text-2xl">
+                <a href="" className="btn-primary text-white">View Products</a>
+                <a href="" className="btn-secondary">Get Start</a>
+              </div>
           </div>
           
         </div>

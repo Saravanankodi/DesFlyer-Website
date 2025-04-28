@@ -11,9 +11,9 @@ const ProjectDetails = ({tittle,condent,details,vectorImg}) => {
         <p className="text text-xl text-justify lg:my-5">
           {condent}
         </p>
-        <ul className="w-full list lg:w-2/3 text-center lg:grid place-items-center grid-cols-2  ">
+        <ul className="w-full text-left list lg:w-2/3 lg:text-center lg:grid lg:place-items-center grid-cols-2 gap-5  ">
           {details.map((item,index)=>(
-            <div className={index === details.length -1 ? 'col-span-2 text text-lg flex':'flex text text-lg'}>
+            <div className={index === details.length -1 ? 'col-span-2 text text-lg flex gap-2.5':'flex gap-2.5 text text-lg'}>
               <img src={hash} alt="icon" className="w-6" />
               <li key={index} >
               {item}
@@ -23,7 +23,7 @@ const ProjectDetails = ({tittle,condent,details,vectorImg}) => {
         </ul>
       </main>
       <aside className="w-full lg:w-2/5">
-          <img src={vectorImg} alt="project" className="w-full lg:h-400" />
+          <img src={vectorImg} alt="project" className="w-370 h-auto block m-auto lg:h-400 lg:w-auto" />
       </aside>
     </section>
     </>

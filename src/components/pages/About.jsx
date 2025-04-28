@@ -22,7 +22,7 @@ const data = [
 function About() {
   return (
     <>
-    <section className="w-full h-screen lg:flex items-center justify-center p-5">
+    <section className="w-full h-auto lg:flex items-center justify-center p-5">
         <main className="w-full lg:w-3/5">
             <header className="w-full">
                 <h2 className="heading text-3xl lg:text-58 text-center my-5 lg:text-left">

@@ -29,7 +29,8 @@ export default {
       width:{
         620:"620px",
         600:"600px",
-        500:"500px"
+        500:"500px",
+        370:"370px",
       },
       height:{
         35:"35px",
