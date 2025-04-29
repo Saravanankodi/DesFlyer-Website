@@ -59,14 +59,14 @@
   {
     display: block;
     width: fit-content;
-    padding: 10px;
+    padding: 10px 15px;
     background: #0496ff;
     border-radius: 5px;
   }
   .btn-secondary{
     display: block;
     width: fit-content;
-    padding: 10px;
+    padding: 10px 15px;
     border: 1px solid #0496ff;
     color: #0496ff;
     border-radius: 5px;

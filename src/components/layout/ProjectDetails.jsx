@@ -11,7 +11,7 @@ const ProjectDetails = ({tittle,condent,details,vectorImg}) => {
         <p className="text text-xl text-justify lg:my-5">
           {condent}
         </p>
-        <ul className="w-full text-left list lg:w-2/3 lg:text-center lg:grid lg:place-items-center grid-cols-2 gap-5  ">
+        <ul className="w-full text-left list lg:w-2/3 lg:grid grid-cols-2 gap-5  ">
           {details.map((item,index)=>(
             <div className={index === details.length -1 ? 'col-span-2 text text-lg flex gap-2.5':'flex gap-2.5 text text-lg'}>
               <img src={hash} alt="icon" className="w-6" />

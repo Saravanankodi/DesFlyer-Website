@@ -9,7 +9,8 @@ export default {
       colors:{
         primary:"#0496FF",
         review:"#D9D9D980",
-        footer:"#D9D9D9"
+        footer:"#D9D9D9",
+        navbar:"#E11919"
       },
       fontSize:{
         64:"64px",

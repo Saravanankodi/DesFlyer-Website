@@ -15,8 +15,8 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="text-black bg-white">
-      <div className="w-screen mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+    <Disclosure as="nav" className="text-black bg-white border-b-2 border-navbar">
+      <div className="w-full mx-auto px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
             {/* Mobile menu button*/}
@@ -32,7 +32,7 @@ export default function Navbar() {
               <img src={logo} alt="logo" className="w-fit h-12 m-auto lg:m-0" />
             </div>
             <div className="hidden sm:m-auto sm:block">
-              <div className="flex space-x-4">
+              <div className="flex">
                 {navigation.map((item) => (
                   <a
                     key={item.name}
@@ -50,8 +50,8 @@ export default function Navbar() {
             </div>
 
             <div className="btns hidden sm:flex tittle gap-5 text-2xl">
-                <a href="" className="btn-primary text-white">View Products</a>
-                <a href="" className="btn-secondary">Get Start</a>
+                <a href="" className="btn-secondary text-primary">Learn More</a>
+                <a href="" className="btn-primary text-white">Get Start</a>
               </div>
           </div>
           

@@ -15,7 +15,7 @@ function Contactus() {
               <h2 className="heading text-3xl text-center lg:text-left lg:text-6xl">We're Here to Help</h2>
               <p className="text text-lg lg:text-xl text-center lg:text-left">Reach out to us for inquiries or support. We’re eager to assist you!</p>
             </aside>
-            <aside className="w-full lg:flex flex-col justify-evenly lg:w-1/2 lg:p-5 lg:py-0 ">
+            <aside className="w-fit m-auto lg:flex flex-col justify-evenly lg:w-1/2 lg:p-5 lg:py-0 ">
               <div className="flex gap-5 items-center">
                 <img src={mail} alt="icon" className="w-6 h-6" />
                 <a href="mailto:desflyer.tech@gmail.com" className="text text-lg lg:text-xl">desflyer.tech@gmail.com</a>
