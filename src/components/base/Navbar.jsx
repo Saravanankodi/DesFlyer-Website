@@ -29,8 +29,8 @@ export default function Navbar() {
             </DisclosureButton>
           </div>
           <div className="flex flex-1 items-center justify-start sm:items-stretch sm:justify-between">
-            <div className="flex shrink-0 items-center gap-5">
-              <img src={icon} alt="" className="h-12 w-auto" />
+            <div className="flex shrink-0 items-center gap-2.5 sm:gap-5">
+              <img src={icon} alt="" className="sm:h-12 h-10 w-auto" />
               <img src={logo} alt="logo" className="w-fit h-12 m-auto lg:m-0" />
             </div>
             <div className="hidden sm:block">
