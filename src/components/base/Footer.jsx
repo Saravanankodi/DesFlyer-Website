@@ -33,11 +33,20 @@ function Footer() {
                 <div className="w-fit">
                     <h2 className="heading text-32">Follow as  on social media</h2>
                     <div className="w-full flex items-center justify-evenly">
-                        <img src={linkedin} alt="" className="w-12 h-12" />
-                        <img src={whatapp} alt="" className="w-12 h-12" />
-                        <img src={instagram} alt="" className="w-12 h-12" />
-                        <img src={facebook} alt="" className="w-12 h-12" />
-                        <img src={twitter} alt="" className="w-12 h-12" />
+                        <a href="" className="link">
+                            <img src={linkedin} alt="" className="w-12 h-12" />
+                        </a>
+                        <a href="" className="link">
+                            <img src={whatapp} alt="" className="w-12 h-12" />                        </a>
+                        <a href="" className="link">
+                            <img src={instagram} alt="" className="w-12 h-12" />
+                        </a>
+                        <a href="" className="link">
+                            <img src={facebook} alt="" className="w-12 h-12" />
+                        </a>
+                        <a href="" className="link">
+                            <img src={twitter} alt="" className="w-12 h-12" />
+                        </a>
                     </div>
                 </div>
             </main>

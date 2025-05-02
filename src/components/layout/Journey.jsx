@@ -6,7 +6,7 @@ import DetailesCard from './DetailesCard'
 
 const data =[
   {
-    tittle:"Our History",
+    tittle:"Our Vision",
     condent:"Desflyer was established with a vision to enhance business operations through technology. Over the years, we have become a trusted partner for many companies in their digital transformation journey.",
     icon: history
   },

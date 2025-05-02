@@ -16,7 +16,7 @@ function Header() {
             DesFlyer delivers cutting-edge software solutions tailored to your unique business needs. We specialize in creating robust, salable, and user-friendly applications that drive growth and efficiency. Let’s build the future together.
             </p>
             <div className="btns flex flex-col gap-5 lg:flex-row lg:gap-8 w-fit lg:my-5 lg:mx-0 m-auto ">
-                <a href="/service" className="btn-primary text text-white hov text-26 m-auto">
+                <a href="/services" className="btn-primary text text-white hov text-26 m-auto">
                     Our Service
                 </a>
                 <a href="/Portfolio" className="btn-secondary text text-26 m-auto" >
