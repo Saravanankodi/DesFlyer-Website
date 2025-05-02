@@ -42,7 +42,7 @@ function Footer() {
                 </div>
             </main>
             <div className="w-full lg:flex items-center justify-between border-black border-t-2 lg:pt-5">
-                <p className="text text-lg lg:text-xl text-black">© 2025 Desflyer. All rights reserved.</p>
+                <p className="text text-lg lg:text-xl text-black">© 2025 DesFlyer. All rights reserved.</p>
                 <p className="text text-lg lg:text-xl text-black">Designed by DesFlyer</p>
             </div>
     </footer>

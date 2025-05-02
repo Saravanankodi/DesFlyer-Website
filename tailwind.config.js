@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      borderWidth:{
+        nav:"0.5px"
+      },
       colors:{
         primary:"#0496FF",
         review:"#D9D9D980",

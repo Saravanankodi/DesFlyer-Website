@@ -4,8 +4,10 @@ function Header() {
   return (
     <>
     <section className="w-full lg:h-600 p-5 lg:grid grid-cols-[500px_1fr] gap-5 grid-rows-2 lg:px-14 lg:py-14">
-        <h2 className="heading text-center text-4xl lg:text-64 leading-tittle lg:leading-head lg:text-left col-start-2">Innovative Software <br /> Solutions for Your <br />
-        Business</h2>
+        <h2 className="heading text-center text-4xl lg:text-64 leading-tittle lg:leading-head lg:text-left col-start-2">
+            Innovative Software <br /> Solutions for Your <br />
+            <span className='text-primary'>Business</span>
+        </h2>
         <div className="w-full h-370 lg:h-500 lg:w-500 rounded-lg row-start-1 col-start-1 row-span-2">
             <img src={headerImg} alt="header vector " className="h-auto w-370 m-auto lg:h-500 lg:w-500 rounded-lg block" />
         </div>
@@ -13,11 +15,11 @@ function Header() {
             <p className="text text-justify text-lg">
             DesFlyer delivers cutting-edge software solutions tailored to your unique business needs. We specialize in creating robust, salable, and user-friendly applications that drive growth and efficiency. Let’s build the future together.
             </p>
-            <div className="btns flex flex-col gap-5 p-5 lg:flex-row lg:gap-8 w-fit lg:mt-12 lg:mx-0 m-auto ">
-                <a href="" className="btn-primary text text-white hov text-26 m-auto">
+            <div className="btns flex flex-col gap-5 lg:flex-row lg:gap-8 w-fit lg:my-5 lg:mx-0 m-auto ">
+                <a href="/service" className="btn-primary text text-white hov text-26 m-auto">
                     Our Service
                 </a>
-                <a href="" className="btn-secondary text text-26 m-auto" >
+                <a href="/Portfolio" className="btn-secondary text text-26 m-auto" >
                     View Portfolio
                 </a>
             </div>

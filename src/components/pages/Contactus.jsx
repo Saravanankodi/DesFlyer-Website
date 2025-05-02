@@ -9,11 +9,11 @@ function Contactus() {
   return (
     <>
     <section className="w-full">
-        <header className="w-full p-5 lg:flex">
+        <header className="w-full px-5 lg:flex">
             <aside className="w-full lg:w-1/2 lg:border-r-2 border-primary my-5">
-              <p className="text text-2xl text-center lg:text-left">Contact Us</p>
-              <h2 className="heading text-3xl text-center lg:text-left lg:text-6xl">We're Here to Help</h2>
-              <p className="text text-lg lg:text-xl text-center lg:text-left">Reach out to us for inquiries or support. We’re eager to assist you!</p>
+              <p className="text text-28 text-center lg:text-left">Contact Us</p>
+              <h2 className="heading text-32 text-center lg:text-left lg:text-58">We're Here to Help</h2>
+              <p className="text text-lg lg:text-22 text-center lg:text-left">Reach out to us for inquiries or support. We’re eager to assist you!</p>
             </aside>
             <aside className="w-fit m-auto lg:flex flex-col justify-evenly lg:w-1/2 lg:p-5 lg:py-0 ">
               <div className="flex gap-5 items-center">

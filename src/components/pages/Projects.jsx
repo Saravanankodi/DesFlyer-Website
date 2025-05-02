@@ -21,7 +21,7 @@ function Projects() {
   return (
     <>
       <section className="w-full p-5">
-        <header className="w-full h-auto lg:py-12">
+        <header className="w-full h-auto lg:pb-12">
             <p className="text text-2xl text-center lg:text-left lg:text-3xl">Our work</p>
             <h2 className="heading text-3xl lg:text-6xl my-2.5 text-center lg:text-left">Highlighted Projects</h2>
             <p className="text text-lg text-justify lg:text-xl ">Explore our featured projects that demonstrate our expertise in delivering innovative software solutions tailored to client needs.</p>
